@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EDMS_Test.jnlp">
+  <information>
+    <title>EDMS</title>
+    <vendor>Unknown</vendor>
+    <description>EDMS-Test</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EDMS_Test.jar" size="5564675" download="eager" />
+    <jar href="jfoenix.jar" size="2386535" download="eager" />
+    <jar href="mysql-connector-java-5.1.43-bin.jar" size="999018" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Login.Main"  name="EDMS-Test" />
+  <update check="background"/>
+</jnlp>

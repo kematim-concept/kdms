@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard.newAccount">
+   <children>
+      <Pane layoutY="5.0" prefHeight="39.0" prefWidth="610.0">
+         <children>
+            <ImageView fitHeight="39.0" fitWidth="47.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/companylogo.png" />
+               </image>
+            </ImageView>
+            <Text fill="STEELBLUE" layoutX="49.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company Name" wrappingWidth="148.2578125">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="STEELBLUE" layoutX="432.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-  Add User Account" textOrigin="CENTER">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <JFXButton layoutX="278.0" layoutY="341.0" mnemonicParsing="false" ripplerFill="#c99700" text="Add Account" />
+      <JFXComboBox focusColor="ORANGE" labelFloat="true" layoutX="213.0" layoutY="188.0" prefHeight="25.0" prefWidth="215.0" promptText="Account Type" />
+      <JFXTextField focusColor="ORANGE" layoutX="213.0" layoutY="137.0" prefHeight="25.0" prefWidth="215.0" promptText="Account Name" />
+      <JFXTextField focusColor="ORANGE" layoutX="213.0" layoutY="276.0" prefHeight="25.0" prefWidth="215.0" promptText="Password" />
+      <JFXButton layoutX="262.0" layoutY="251.0" mnemonicParsing="false" text="Generate Password" />
+   </children>
+</AnchorPane>

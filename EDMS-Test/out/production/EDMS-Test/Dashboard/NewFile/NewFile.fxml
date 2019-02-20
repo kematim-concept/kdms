@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="209.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard.NewFile.NewFileCOntroller">
+   <children>
+      <JFXButton fx:id="submit" layoutX="242.0" layoutY="159.0" mnemonicParsing="false" onAction="#CreateFile" text="Create File" />
+      <JFXTextField fx:id="filenametxt" layoutX="58.0" layoutY="55.0" prefHeight="25.0" prefWidth="256.0" promptText="File Name:" />
+      <JFXTextField fx:id="createdbytxt" layoutX="58.0" layoutY="95.0" prefHeight="25.0" prefWidth="256.0" promptText="Created By:" />
+   </children>
+</AnchorPane>
